@@ -1,0 +1,229 @@
+body {
+display: flex;
+flex-direction: column;
+background-color: white;
+color: aliceblue;
+
+}
+
+
+
+
+.headerChild {
+  display: flex;
+background-image: url(./new-york-city-central-park-lake-autumn_$bg2-hero-lg$&crop=2\,48\,2498\,1610&anchor=1251\,853\(1\).jpg);
+background-size: cover;
+justify-content: center;
+align-items: center;
+width: auto;
+  height: 35rem;
+  max-height: 35rem;
+  color: aliceblue;
+  border-bottom: 2px solid black;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+   -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+       animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+h1 {
+  font-weight: 400;
+  font-size: 60px;
+}
+
+
+.leftRight {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+  min-height: 45rem;
+  justify-content:center;
+  gap: 100px;
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+   -o-animation: fadein 2s; /* Opera < 12.1 */
+      animation: fadein 2s;
+}
+
+.carousel {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 35rem;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+   -o-animation: fadein 2s; /* Opera < 12.1 */
+      animation: fadein 2s;
+  
+}
+
+.carousel-inner img {
+  width: 26rem;
+  height: 18rem;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+hr {
+  border: 1px solid black;
+  
+  
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+  min-height: 35rem;
+  justify-content: center;
+  align-items: center;
+  gap: 12rem;
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+   -o-animation: fadein 2s; /* Opera < 12.1 */
+      animation: fadein 2s;
+}
+
+.contactWrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+  height: auto;
+  width: auto;
+  min-height: 35rem;
+  gap: 8rem;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+   -o-animation: fadein 2s; /* Opera < 12.1 */
+      animation: fadein 2s;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  width: 34rem;
+  height: 34rem;
+  border: 0px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+-moz-animation: fadein 2s; /* Firefox < 16 */
+-ms-animation: fadein 2s; /* Internet Explorer */
+ -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.footWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  background-color: rgb(248, 249, 250);
+  height: auto;
+  width: 100%;
+  justify-content: space-between;
+  border-top: 1px solid darkgray;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+}
+
+.ctext {
+  color: gray;
+}
+
+.topBottomOne, .topBottomTwo {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.twofour{
+  margin-left: 2rem;
+}
+.leftSide, .rightSide {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  width: auto;
+  height: 50%;
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+   -o-animation: fadein 2s; /* Opera < 12.1 */
+      animation: fadein 2s;
+ 
+}
+
+.leftSide{
+  margin-right: 2px;
+}
+
+.rightSide {
+  margin-left: 2px;
+}
+
+.iconsRight img {
+  display: flex;
+  margin-bottom: 2rem;
+  margin-right: .5rem;
+  
+}
+
+.iconOne, .iconTwo, .iconThree {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 249, 250);
+  height: auto;
+  min-height: 24;
+  padding-bottom: 1rem;
+}
+
+.righttextmargin {
+  margin-bottom: 4rem;
+}
+
+.toast {
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+   -o-animation: fadein 2s; /* Opera < 12.1 */
+      animation: fadein 2s;
+}

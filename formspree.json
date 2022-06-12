@@ -1,0 +1,8 @@
+{
+    "forms": {
+      "Contact": {
+        "name": "Contact",
+        "actions": [{ "type": "email", "to": "abishop0894@gail.com" }]
+      }
+    }
+  }
